@@ -21,5 +21,6 @@ public class logger {
     h = new Handler();
   }    
   public void log(String s){        
-    h.post(new ps(t, s));    }
+    h.post(new ps(t, s));    
+  }
 }
